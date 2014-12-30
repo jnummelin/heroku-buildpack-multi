@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 echo "--- Files in $1 ---->"
-ls $1
+ls -a $1
 echo "<--- Files in $1 ----"
 
 
