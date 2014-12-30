@@ -1,5 +1,10 @@
 #!/usr/bin/env bash
 
+echo "--- Files in $1 ---->"
+ls $1
+echo "<--- Files in $1 ----"
+
+
 if [ -f $1/.buildpacks ]; then
   echo "Multipack"
   exit 0
